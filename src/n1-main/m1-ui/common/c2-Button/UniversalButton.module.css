@@ -1,0 +1,14 @@
+.default {
+background: white;
+color: #090000;
+
+    font-size: 15px;
+}
+
+.red {
+    background: white;
+}
+.spanSix {
+
+    font-size: 25px;
+}
