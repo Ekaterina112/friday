@@ -7,7 +7,9 @@
     justify-content: space-between;
     align-items: center;
 }
-
+.item a.activeLink {
+    color: #fa6e4f;
+}
 
 .logo {
     font-weight: 700;

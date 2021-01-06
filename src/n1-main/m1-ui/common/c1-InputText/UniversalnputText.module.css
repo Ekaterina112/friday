@@ -1,17 +1,14 @@
 .superInput {
-    height: 30px;
     padding: 6px 12px;
+    height: 35px;
     font-size: 14px;
     line-height: 20px;
     font-weight:400;
     color: #a9a9a9;
-    background-color: transparent;
-    background-image: none;
     border: 1px solid rgba(169, 169, 169, 0.4);
     border-radius: 5px;
     width: 95%;
     font-family: Poppins, sans-serif;
-
 }
 
 .errorInput {
