@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    padding: 0 150px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    z-index: 1030;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 25px 15px;
+    line-height: 20px;
+    margin-right: 50px;
+}
+
+.logo span {
+    color: #fa6e4f;
+    font-size: 32px;
+}
+a {
+    padding: 25px 10px;
+    transition: color .3s;
+    font-family: 'Sintony', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-decoration: none;
+    color:white;
+    line-height: 20px;
+}

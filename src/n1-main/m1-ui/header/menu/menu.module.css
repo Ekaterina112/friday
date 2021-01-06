@@ -1,0 +1,10 @@
+.item {
+    text-align: center;
+}
+
+.item a {
+    font-size: 12px;
+}
+.item a.activeLink {
+    color: #fa6e4f;
+}
