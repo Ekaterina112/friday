@@ -11,26 +11,28 @@ function Header() {
                 Study Point
                 <span>.</span>
             </div>
-            <nav>
+
+
+                <nav>
                <span className={s.item}>
                     <NavLink to={PATH.PROFILE} activeClassName={s.activeLink}>PROFILE</NavLink>
                 </span>
-                <span className={s.item}>
+                    <span className={s.item}>
                     <NavLink to={PATH.TEST} activeClassName={s.activeLink}>TEST PAGE</NavLink>
                 </span>
-                <span className={s.item}>
+                    <span className={s.item}>
                     <NavLink to={PATH.LOGIN} activeClassName={s.activeLink}> SIGN IN </NavLink>
                 </span>
-                <span className={s.item}>
+                    <span className={s.item}>
                     <NavLink to={PATH.REGISTRATION} activeClassName={s.activeLink}> SIGN UP </NavLink>
                 </span>
-                <span className={s.item}>
+                    <span className={s.item}>
                     <NavLink to={PATH.RECOVERY_PASSWORD} activeClassName={s.activeLink}> RECOVERY PASSWORD </NavLink>
                 </span>
-                <span className={s.item}>
+                    <span className={s.item}>
                     <NavLink to={PATH.NEW_PASSWORD} activeClassName={s.activeLink}> CHANGE PASSWORD </NavLink>
                 </span>
-            </nav>
+                </nav>
         </div>
     );
 }

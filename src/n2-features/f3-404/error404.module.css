@@ -36,15 +36,8 @@ h1 {
     position: relative;
 }
 
-h1::before {
-    position: absolute;
-    content: "\f4d7";
-    font-family: "Ionicons";
-    color: #fa6e4f;
-    font-size: 52px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+p {
+    position: relative;
 }
 
 .firstP {
@@ -59,27 +52,14 @@ h1::before {
     position: relative;
 }
 
-.secondP {
+.secondP .thirdP {
     margin: 10px 0;
     font-family: Poppins, sans-serif;
     font-weight: 400;
     line-height: 26px;
-    position: relative;
     font-size: 18px;
 }
 
-.thirdP {
-    margin: 10px 0;
-    font-weight: 400;
-    line-height: 26px;
-    font-family: Poppins, sans-serif;
-    position: relative;
-    font-size: 18px;
-}
-
-.item {
-
-}
 
 .item a {
     font-weight: 400;

@@ -1,11 +1,11 @@
 .header {
     display: flex;
-    padding: 0 150px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     z-index: 1030;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .item a.activeLink {
     color: #fa6e4f;
@@ -16,7 +16,7 @@
     font-size: 26px;
     font-family: 'Poppins', sans-serif;
     color: white;
-    padding: 25px 15px;
+    padding: 25px 0;
     line-height: 20px;
     margin-right: 50px;
 }
@@ -26,7 +26,7 @@
     font-size: 32px;
 }
 a {
-    padding: 25px 10px;
+    padding: 10px;
     transition: color .3s;
     font-family: 'Sintony', sans-serif;
     font-weight: 700;
