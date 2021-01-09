@@ -1,16 +1,14 @@
-import axios from 'axios'
-
+import axios from "axios";
 
 const instance = axios.create({
-    baseURL: '',
     withCredentials: true,
-    headers: {
-        'API-KEY': ''
-    }
+    baseURL: 'http://localhost:7542/2.0/'
 })
 
-//api
-export const nameAPI = {}
+
+export const getTimeAPI = (time: string) => {
+    return instance.get(`ping?frontTime=${time}`)
+}
 
 
 //types

@@ -21,7 +21,6 @@ const UniversalInputText: React.FC<SuperInputTextPropsType> = (
         error,
         className, spanClassName,
 
-
         ...restProps// все остальные пропсы попадут в объект restProps
     }
 ) => {
@@ -44,10 +43,10 @@ const UniversalInputText: React.FC<SuperInputTextPropsType> = (
     return (
         <>
             <input
-                type={"text"}
                 onChange={onChangeCallback}
                 onKeyPress={onKeyPressCallback}
                 className={finalInputClassName}
+                type={type}
                 {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
             />
             {error && <span className={finalSpanClassName}>{error}</span>}
